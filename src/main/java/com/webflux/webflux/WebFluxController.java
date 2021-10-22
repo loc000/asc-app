@@ -13,7 +13,7 @@ public class WebFluxController {
 
     @GetMapping
     public String getRandom() {
-        int count = random.nextInt(200000);
+        int count = random.nextInt(1000);
 
         return "Get sum " + count;
     }
